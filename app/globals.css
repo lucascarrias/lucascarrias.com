@@ -5,15 +5,25 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --font-sans: var(--font-inter);
-  --font-mono: var(--font-jetbrains-mono);
-  
-  --color-foreground: var(--foreground);
-  --color-background: #0B0B0C;
-  --color-text: #EAEAEA;
-  --color-accent: #7C5CFF;
-  --color-muted: #A1A1AA;
+@theme {
+  /* Base */
+  --color-background: #f8f9fa;
+  --color-foreground: #1a1a1a;
+
+  /* Text */
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #4a4a4a;
+
+  /* Brand */
+  --color-primary: #284b63; /* Yale Blue */
+  --color-accent: #3c6e71;  /* Stormy Teal */
+
+  /* Surfaces */
+  --color-surface: #ffffff;
+  --color-surface-muted: #f1f1f1;
+
+  /* Borders */
+  --color-border: #e0e0e0;
 }
 
 @media (prefers-color-scheme: dark) {
