@@ -1,0 +1,36 @@
+export default function Contact() {
+  return (
+    <section id="contact" className="pb-24">
+      <h2 className="text-text text-2xl font-semibold mb-4">Contact</h2>
+      <p className="text-muted text-base leading-relaxed mb-6">
+        {/* TODO: Short contact intro */}
+        Feel free to reach out — I&apos;m always open to interesting conversations.
+      </p>
+      <div className="flex flex-col gap-2 text-sm">
+        <a
+          href="mailto:todo@example.com"
+          className="text-accent hover:opacity-80 transition-opacity"
+        >
+          {/* TODO: your email */}
+          todo@example.com
+        </a>
+        <a
+          href="https://github.com/TODO"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-muted hover:text-accent transition-colors"
+        >
+          GitHub {/* TODO: your GitHub handle */}
+        </a>
+        <a
+          href="https://linkedin.com/in/TODO"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-muted hover:text-accent transition-colors"
+        >
+          LinkedIn {/* TODO: your LinkedIn handle */}
+        </a>
+      </div>
+    </section>
+  );
+}
