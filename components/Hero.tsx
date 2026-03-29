@@ -1,18 +1,21 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 export default function Hero() {
   return (
     <section className="pt-24 pb-12">
-      <p className="text-accent text-sm font-mono mb-3">// TODO: your tagline</p>
+      <p className="text-accent text-sm font-mono mb-3">
+        // building scalable systems and thoughtful solutions
+      </p>
       <h1 className="text-text-primary text-5xl font-bold tracking-tight mb-4">
-        {/* TODO: Your Name */}
         Lucas Carrias Bruno
       </h1>
       <p className="text-primary text-xl font-medium mb-6">
         {/* TODO: Your Role */}
-        Software Engineer
+        Senior Fullstack Engineer
       </p>
       <p className="text-text-secondary text-base leading-relaxed max-w-xl mb-8">
-        {/* TODO: Short description */}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        I build and improve complex web applications, focusing on performance,
+        scalability, and clean architecture. Experienced in leading teams and
+        delivering real-world impact across large-scale systems.
       </p>
       <div className="flex gap-4 flex-wrap">
         <a

@@ -3,10 +3,21 @@ export default function About() {
     <section id="about" className="bg-surface">
       <h2 className="text-text-primary text-2xl font-semibold mb-4">About</h2>
       <p className="text-text-secondary text-base leading-relaxed">
-        {/* TODO: Your about paragraph (max 6 lines) */}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        <p className="text-text-secondary leading-relaxed">
+          I&apos;m a fullstack developer with experience across backend-heavy systems
+          and modern frontend applications.
+        </p>
+
+        <p className="text-text-secondary leading-relaxed">
+          Over the past years, I&apos;ve worked on large-scale platforms, including
+          ticketing systems used by millions of users, focusing on performance,
+          system reliability, and maintainability.
+        </p>
+
+        <p className="text-text-secondary leading-relaxed">
+          Beyond coding, I enjoy solving complex problems, mentoring developers,
+          and contributing to healthier engineering environments.
+        </p>
       </p>
     </section>
   );
