@@ -30,7 +30,7 @@ export default function Career() {
 
         <div className="flex gap-4 pt-4 flex-wrap">
           <a
-            href="/cv.pdf"
+            href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/cv.pdf`}
             download
             className="flex items-center gap-2 border border-primary text-primary px-5 py-2 rounded-md hover:bg-primary hover:text-white transition"
           >

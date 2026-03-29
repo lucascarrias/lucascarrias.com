@@ -35,7 +35,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/cv.pdf"
+              href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/cv.pdf`}
               download
               className="flex items-center gap-2 border border-primary text-primary px-5 py-2 rounded-md hover:bg-primary hover:text-white transition"
             >
@@ -47,7 +47,7 @@ export default function Hero() {
         {/* IMAGE */}
         <div className="flex justify-center md:justify-end">
           <img
-            src="/profile.webp"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/profile.webp`}
             alt="Lucas Carrias"
             className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-xl border border-border shadow-sm"
           />
