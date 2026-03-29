@@ -2,7 +2,9 @@ export default function Navbar() {
   return (
     <nav className="bg-surface/80 backdrop-blur border-b border-border sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-        <span className="font-medium text-text-primary">Lucas Carrias</span>
+        <a href="#" className="font-medium text-text-primary">
+          Lucas Carrias
+        </a>
 
         <div className="flex gap-6 text-sm">
           <a

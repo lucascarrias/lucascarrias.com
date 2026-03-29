@@ -6,14 +6,14 @@ export default function Career() {
       <div className="max-w-3xl mx-auto px-4 space-y-8">
         <h2 className="text-2xl font-semibold text-text-primary">Career</h2>
 
-        <div className="space-y-5 text-text-secondary leading-relaxed text-base md:text-lg">
-          <p className="indent-4">
+        <div className="space-y-6 text-text-secondary leading-relaxed text-base md:text-lg">
+          <p className="text-text-secondary leading-relaxed text-base md:text-lg text-left">
             Currently working as a Fullstack Developer at Autodesk, contributing
             to large-scale applications and migration efforts across complex
             codebases.
           </p>
 
-          <p className="indent-4">
+          <p className="text-text-secondary leading-relaxed text-base md:text-lg text-left">
             Previously, I worked at Universe (a Ticketmaster company), where I
             helped build and maintain a global ticketing platform. My work
             involved backend systems, frontend applications, performance
@@ -21,7 +21,7 @@ export default function Career() {
             PayPal.
           </p>
 
-          <p className="indent-4">
+          <p className="text-text-secondary leading-relaxed text-base md:text-lg text-left">
             I’ve also contributed as a tech lead at Globant, mentoring
             developers, supporting teams, and helping deliver high-impact
             features across multiple projects.

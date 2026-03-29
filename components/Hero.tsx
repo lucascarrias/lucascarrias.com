@@ -3,7 +3,7 @@ import { ArrowRight, Download } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="bg-surface py-24">
+    <section className="bg-surface py-8 md:py-24">
       <div className="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
         {/* TEXT */}
         <div className="space-y-6">

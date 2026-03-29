@@ -1,8 +1,6 @@
-import { Mail } from "lucide-react";
-
 export default function Contact() {
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="py-24 pb-32 md:pb-40">
       <div className="max-w-3xl mx-auto px-4 space-y-6">
         <h2 className="text-2xl font-semibold text-text-primary">Contact</h2>
 
