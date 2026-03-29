@@ -14,6 +14,12 @@ export default function Navbar() {
             About
           </a>
           <a
+            href="#projects"
+            className="text-text-secondary hover:text-text-primary transition"
+          >
+            Work
+          </a>
+          <a
             href="#career"
             className="text-text-secondary hover:text-text-primary transition"
           >
